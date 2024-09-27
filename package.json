@@ -1,0 +1,22 @@
+{
+    "name": "flatcurry-smt",
+    "version": "1.0.0",
+    "author": "Michael Hanus <mh@informatik.uni-kiel.de>",
+    "synopsis": "Library with mappings of FlatCurry names to SMT names",
+    "category": [ "Metaprogramming" ],
+    "license": "BSD-3-Clause",
+    "licenseFile": "LICENSE",
+    "dependencies": {
+        "base"      : "^3.0.0"
+    },
+    "compilerCompatibility": {
+        "pakcs"   : "< 3.8.0",
+        "kics2"   : "< 3.3.0",
+        "curry2go": "< 1.5.0",
+        "kmcc"    : "< 1.0.0"
+    },
+    "source": {
+        "git": "https://github.com/curry-packages/flatcurry-smt.git",
+        "tag": "$version"
+    }
+}
