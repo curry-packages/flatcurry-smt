@@ -13,8 +13,8 @@ module FlatCurry.Names2SMT where
 --- Primitive unary operations of the prelude and their SMT names.
 unaryPrimOps :: [(String,String)]
 unaryPrimOps =
-  [("_impl#negate#Prelude.Num#Prelude.Int","-")
-  ,("_impl#sqrt#Prelude.Floating#Prelude.Float","sqrt")
+  [("_impl#negate#Prelude.Num#Prelude.Int#","-")
+  ,("_impl#sqrt#Prelude.Floating#Prelude.Float#","sqrt")
   ,("not","not")
   ]
 
